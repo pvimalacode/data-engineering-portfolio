@@ -1,7 +1,7 @@
 # data-Engineering-portfolio
 
 
-This is a simple ETL project in databricks using delta tables
+This is a simple ETL project in databricks using delta tables (works with community version and  12.2 LTS)
 1. Cleans up environmnet to set up the tables and load files to consume
 2. Loads raw data to a sink and creates bronze and silver table
 3. craetes autoloder for bronze loading
