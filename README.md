@@ -6,3 +6,10 @@ This is a simple ETL project in databricks using delta tables
 2. Loads raw data to a sink and creates bronze and silver table
 3. craetes autoloder for bronze loading
 4. creates silver table by implementing CDC and merges only new or deleted or updated records
+
+
+Run the notebook in following order
+1. Cleanup
+2. setup_data
+3. Bronze layer
+4. silver layer
