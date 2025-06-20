@@ -316,5 +316,40 @@ PIVOT (
 ) AS pvt;
 ```
 
-```
-```
+# SQL Practice
+
+You can practice SQL using the following online editor:
+
+[OneCompiler - MySQL Practice](https://onecompiler.com/mysql/43n9bjq5y)
+
+---
+
+## How to use
+
+1. Open the link above in your browser.
+2. Write and run MySQL queries directly.
+3. Experiment with table creation, inserts, selects, joins, and more.
+
+---
+
+## Sample Commands to Try
+
+```sql
+-- Create a sample table
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    hire_date DATE,
+    salary DECIMAL(10,2)
+);
+
+-- Insert sample data
+INSERT INTO employees VALUES
+(1, 'Alice', 'Smith', '2020-01-15', 60000),
+(2, 'Bob', 'Brown', '2019-03-23', 55000),
+(3, 'Charlie', 'Davis', '2021-07-11', 70000);
+
+-- Select all employees
+SELECT * FROM employees;
+
